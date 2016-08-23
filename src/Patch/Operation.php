@@ -90,4 +90,11 @@ class Operation implements OperationInterface
     {
         return $this->parameters;
     }
+
+    public function __toString()
+    {
+        return $this->operation();
+    }
+
+
 }

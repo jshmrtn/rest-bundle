@@ -27,4 +27,9 @@ interface OperationInterface
      * @return mixed[]
      */
     public function parameters();
+
+    /**
+     * @return string
+     */
+    public function __toString();
 }
